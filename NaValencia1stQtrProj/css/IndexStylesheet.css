@@ -1,0 +1,65 @@
+body {
+	background-color: #f5f0e4
+}
+
+header {
+	font-weight:bold;
+        font-size: 45px;
+        font-family: Sans-serif, Sans, Serif;
+        padding: 20px 10px 5px 5px;
+	margin: 0 0 20px 0;
+     	background-color: white;
+      	position: fixed;
+      	border: 1px white;
+        width: 100%;
+	height: 75px;
+	z-index: 1;
+}
+
+nav {
+        height: 100px;
+	width: 400px;
+  	background-color: #b1d1e3;
+    	border: 2px white;
+	top: 120px;
+     	margin-bottom: 35px;
+	position: relative;
+     	padding: 10px 10px 0px 10px;
+	font-family: Sans-serif, Sans, Serif;
+      	font-size: 20px;
+}
+            
+nav > img {	
+	height: 90px;
+        width: 90px;
+        position: relative;
+	padding-right: 5px;
+}
+            
+section {
+       	position: absolute;
+	top: 130px;
+	left: 850px;
+	float: right;
+      	font-family: Sans-serif, Sans, Serif;
+      	font-size: 20px;
+       	width: 350px;  
+}
+            
+section > video {
+        width: 300px;
+        height: 400px;
+	margin-top: 10px;
+    	margin-left: 25px;
+	preload: none;
+}
+            
+section > h1 {
+       	text-align: center;
+	font-style: bold;
+}
+            
+section > p {
+       	margin-left: 5px;
+       	margin-right: 5px;
+}
